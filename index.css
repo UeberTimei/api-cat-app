@@ -41,33 +41,6 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-	/* #header{
-		font-size: 20px;
-	}
-
-	.github{
-		top: 24px;
-		left: 2px;
-		font-size: 15px;
-	}
-
-	form{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-
-	label{
-		font-size: 25px;
-	}
-
-	select{
-		font-size: 20px;
-	}
-
-	button{
-		font-size: 30px;
-	} */
-
 	img {
 		display: flex;
 		max-width: 90%;

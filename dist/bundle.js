@@ -1,0 +1,1 @@
+(()=>{const t=document.getElementById("new-cat-btn"),e=document.getElementById("cat-image");function n(){fetch("https://api.thecatapi.com/v1/images/search").then((t=>t.json())).then((t=>{const n=t[0].url;e.innerHTML=`<img src="${n}" alt="Cat Image">`}))}t.addEventListener("click",n),n()})();
