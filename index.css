@@ -1,6 +1,29 @@
 body {
+	margin: 0;
 	background-color: aliceblue;
 	font-family: sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0px;
+    background-color: #4CAF50;
+}
+
+.github {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
 }
 
 h1 {
@@ -40,10 +63,16 @@ img {
 	border: 2px solid rgb(94, 94, 94);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 	img {
 		display: flex;
 		max-width: 90%;
 		max-height: 65vmax;
+	}
+
+	.github {
+		position: absolute;
+		left: 1px;
+		top: 77px;
 	}
 }
